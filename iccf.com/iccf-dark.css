@@ -1158,7 +1158,7 @@ input[type="submit"]{
 	border:0;
 	padding-left:6px;
 	background:transparent;
-	background-image:url(../../images/link.png);
+	background-image:url(https://www.iccf.com/images/link.png);
 	background-position:0 5px;
 	background-repeat:no-repeat
 }
@@ -1174,7 +1174,7 @@ input[type="button"]{
 	border:0;
 	padding-left:6px;
 	background:transparent;
-	background-image:url(../../images/link.png);
+	background-image:url(https://www.iccf.com/images/link.png);
 	background-position:0 5px;
 	background-repeat:no-repeat
 }
@@ -1229,14 +1229,14 @@ a:hover{
 }
 
 hr{
-	background-image:url(../../images/hr.png);
+	background-image:url(https://www.iccf.com/images/hr.png);
 	border:0 solid transparent;
 	height:2px;
 	margin-top:1em
 }
 
 hr.orange{
-	background-image:url(../../images/hr2.png);
+	background-image:url(https://www.iccf.com/images/hr2.png);
 	border:0 solid transparent;
 	height:2px;
 	margin-top:0
@@ -1532,7 +1532,7 @@ h3{
 #mastermenu li{
 	text-align:left;
 	color:#81a4c8;
-	background-image:url(../../images/toc.png);
+	background-image:url(https://www.iccf.com/images/toc.png);
 	background-position:left bottom;
 	background-repeat:repeat-x;
 	overflow:hidden
@@ -1563,7 +1563,7 @@ h3{
 	overflow:visible;
 	margin-left:-60px;
 	margin-right:-50px;
-	background-image:url(../../images/arrow.png);
+	background-image:url(https://www.iccf.com/images/arrow.png);
 	background-repeat:no-repeat;
 	background-position:right
 }
@@ -1616,12 +1616,12 @@ h3{
 }
 
 .gvascheader a{
-	background:url(../../images/arrow_asc.png) right center no-repeat;
+	background:url(https://www.iccf.com/images/arrow_asc.png) right center no-repeat;
 	padding:0 25px 0 5px
 }
 
 .gvdescheader a{
-	background:url(../../images/arrow_desc.png) right center no-repeat;
+	background:url(https://www.iccf.com/images/arrow_desc.png) right center no-repeat;
 	padding:0 25px 0 5px
 }
 
