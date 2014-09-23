@@ -1485,13 +1485,15 @@ h3{
 	float:left;
 	margin-left:20px;
 	margin-top:-110px;
-	height:90px
+	height:90px;
+	visibility:hidden
 }
 
 #mastersponsorleft{
 	float:right;
 	margin-top:-110px;
-	height:90px
+	height:90px;
+	visibility:hidden
 }
 
 #masterlogin{
