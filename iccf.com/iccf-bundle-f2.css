@@ -206,7 +206,7 @@
 .ui-widget-content{
 	border:1px solid #ddd;
 	background:#222 url(images/ui-bg_highlight-soft_100_ffffff_1x100.png) 50% top repeat-x;
-	color:#1d3c50
+	color:#7661d5
 }
 
 .ui-widget-content a{
@@ -216,12 +216,12 @@
 .ui-widget-header{
 	border:1px solid #c1a228;
 	background:#c1a228 url(images/ui-bg_gloss-wave_100_C1A228_500x100.png) 50% 50% repeat-x;
-	color:#1d3c50;
+	color:#7661d5;
 	font-weight:bold
 }
 
 .ui-widget-header a{
-	color:#1d3c50
+	color:#7661d5
 }
 
 .ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{
@@ -314,7 +314,7 @@
 }
 
 .ui-widget-header .ui-icon{
-	background-image:url(images/ui-icons_1d3c50_256x240.png)
+	background-image:url(images/ui-icons_7661d5_256x240.png)
 }
 
 .ui-state-default .ui-icon{
@@ -1088,7 +1088,7 @@ input,select,textarea{
 	margin-left:0;
 	padding:0;
 	font-family:Verdana,Arial,Helvetica,sans-serif;
-	color:#1d3c50
+	color:#7661d5
 }
 
 select{
@@ -1117,7 +1117,7 @@ body{
 	font-family:Verdana,Arial,Helvetica,sans-serif;
 	font-size:14px;
 	line-height:18px;
-	color:#1d3c50
+	color:#7661d5
 }
 
 p{
@@ -1519,7 +1519,7 @@ h3{
 #mastermenu li a{
 	text-align:right;
 	display:block;
-	color:#1d3c50;
+	color:#7661d5;
 	background:#222
 }
 
@@ -1633,7 +1633,7 @@ table.ct th.th{
 	border-width:0;
 	border-left-width:1px;
 	border-right-width:1px;
-	border-color:#1d3c50;
+	border-color:#7661d5;
 	color:#81a4c8;
 	font-size:12px;
 	text-align:center;
@@ -1657,7 +1657,7 @@ table.ct th.th{
 	border-width:0;
 	border-top-width:1px;
 	border-bottom-width:1px;
-	border-color:#1d3c50
+	border-color:#7661d5
 }
 
 .bw{
@@ -1671,7 +1671,7 @@ table.ct th.th{
 	padding:1px;
 	border-style:solid;
 	border-width:1px;
-	border-color:#1d3c50
+	border-color:#7661d5
 }
 
 .bx{
@@ -1686,7 +1686,7 @@ table.ct th.th{
 	padding:1px;
 	border-style:solid;
 	border-width:1px;
-	border-color:#1d3c50
+	border-color:#7661d5
 }
 
 a.abx{
@@ -1746,7 +1746,7 @@ a.aspNetDisabled:hover{
 
 a.menu:visited{
 	text-decoration:none;
-	color:#1d3c50
+	color:#7661d5
 }
 
 .modalBackground{
