@@ -1,5 +1,17 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
+/* Dark ICCF (version 0.1)
+   Dark style for the International Correspondence Chess Federation site.
+   Released under the GPLv3 (or later).
+
+   Author:   Ben McGinnes
+   GPG Key:  0x321E4E2373590E5D
+   Bitcoin:  1CUWLk5UJygDvsNNjmroqCd2uhgyKtH6Rb
+
+   https://github.com/adversary-org/stylish-styles
+   https://github.com/adversary-org/stylish-styles/tree/master/iccf.com
+*/
+
 @-moz-document domain("iccf.com") {
 
   body {
