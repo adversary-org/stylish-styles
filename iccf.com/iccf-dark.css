@@ -244,7 +244,7 @@
 
 .ui-widget-content{
 	border:1px solid #ddd;
-	background:#222 url(https://www.iccf.com/images/ui-bg_highlight-soft_100_ffffff_1x100.png) 50% top repeat-x;
+	background:#222 50% top repeat-x;
 	color:#5c41d5
 }
 
@@ -289,7 +289,7 @@
 
 .ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{
 	border:1px solid #fbd850;
-	background:#222 url(https://www.iccf.com/images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+	background:#222 50% 50% repeat-x;
 	font-weight:normal;
 	color:#c1a228
 }
