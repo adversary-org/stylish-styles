@@ -25,7 +25,11 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; */
-  } 
+  }
+
+  textarea {
+    background-color: #000000 !important
+  }
 
 .ui-helper-hidden{
 	display:none
