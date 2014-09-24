@@ -1,6 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-/* Dark ICCF (version 0.1f: userstyles.org edition)
+/* Dark ICCF (version 0.1.2f: userstyles.org edition)
    Dark style for the International Correspondence Chess Federation site.
    Released under the GPLv3 (or later).
 
@@ -25,7 +25,11 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-  } 
+  }
+
+  textarea {
+    background-color: #000000 !important
+  }
 
 input[type="button"].replay{
 	background-image:none;
@@ -70,106 +74,13 @@ input[type="submit"].aspNetDisabled:hover{
 	background:#222
 }
 
-@media print,screen and (max-width:1023px){
-	#mastermenu{
-		display:none
-	}
-
-	#masterlogin{
-		display:none
-	}
-
-	#masterheader{
-		padding:5px
-	}
-
-	#mastercontent{
-		padding:5px;
-		padding-top:0
-	}
-
-}
-
-@media screen and (max-width:767px){
-	#masterright{
-		display:none
-	}
-
-	#mastermain{
-		width:100%
-	}
-
-	#mastercontent{
-		width:100%
-	}
-
-	#mastersponsor{
-		display:none
-	}
-
-	#mastersponsorleft{
-		display:none
-	}
-
-	.formlabel{
-		font-weight:bold;
-		display:block;
-		clear:both;
-		margin-bottom:2px
-	}
-
-	.formfield400{
-		width:100%
-	}
-
-}
-
-@media print,screen and (min-width:768px){
-	#mastercontent{
-		min-width:500px
-	}
-
-	.formlabel{
-		float:left;
-		width:150px;
-		margin-right:10px;
-		text-align:right;
-		font-weight:bold;
-		clear:left
-	}
-
-	.formfield400{
-		width:400px
-	}
-
-	#language768{
-		display:none
-	}
-
-	.maxright768{
-		float:right
-	}
-
-	.maxleft768{
-		float:left
-	}
-
-}
-
-@media print{
-	#masterdropdown{
-		display:none
-	}
-
-}
-
 @media screen and (min-width:1024px){
 	#masterdropdown{
 		display:none
 	}
 
 	.masterbody{
-		background-image:url(https://www.iccf.com/images/back_1920.jpg);
+		background-image:url(https://github.com/adversary-org/stylish-styles/blob/master/iccf.com/images/chess-wallpaper.jpg);
 		background-position:top left;
 		background-repeat:no-repeat;
 		background-attachment:fixed;
@@ -189,29 +100,6 @@ input[type="submit"].aspNetDisabled:hover{
 		-moz-box-shadow:5px 5px 5px #999;
 		-webkit-box-shadow:5px 5px 5px #999;
 		box-shadow:5px 5px 5px #999
-	}
-
-	#masterheader{
-		position:absolute;
-		left:174px;
-		top:24px
-	}
-
-	#masterleft{
-		position:absolute;
-		width:230px;
-		top:144px;
-		left:50px;
-		padding:0;
-		margin:0
-	}
-
-	#mastermain{
-		position:absolute;
-		top:144px;
-		left:300px;
-		right:50px;
-		min-width:800px
 	}
 
 	#mastercontent{
@@ -236,38 +124,6 @@ input[type="submit"].aspNetDisabled:hover{
 		box-shadow:5px 5px 5px #999
 	}
 
-	.maxright{
-		float:right
-	}
-
-	.maxleft{
-		float:left
-	}
-
-}
-
-@media screen and (min-width:1400px){
-	.maxright1400{
-		float:right
-	}
-
-	.maxleft1400{
-		float:left
-	}
-
-}
-
-#mastersponsor{
-	float:left;
-	margin-left:20px;
-	margin-top:-110px;
-	height:90px
-}
-
-#mastersponsorleft{
-	float:right;
-	margin-top:-110px;
-	height:90px
 }
 
 #masterlogin{
@@ -295,26 +151,6 @@ input[type="submit"].aspNetDisabled:hover{
 	width:100%
 }
 
-#masterlogout{
-	text-align:right;
-	font-size:12px
-}
-
-#mastermenu ul{
-	list-style-type:none;
-	padding-left:0;
-	margin-left:0
-}
-
-#mastermenu li{
-	text-align:left;
-	color:#81a4c8;
-	background-image:url(https://www.iccf.com/images/toc.png);
-	background-position:left bottom;
-	background-repeat:repeat-x;
-	overflow:hidden
-}
-
 #mastermenu li span{
 	display:inline-block;
 	background:#222;
@@ -325,7 +161,7 @@ input[type="submit"].aspNetDisabled:hover{
 #mastermenu li a{
 	text-align:right;
 	display:block;
-	color:#1d3c50;
+	color:#5c41d5;
 	background:#222
 }
 
@@ -367,6 +203,182 @@ input[type="submit"].aspNetDisabled:hover{
 	text-align:left;
 	display:block;
 	width:100%
+}
+
+.ui-widget-content{
+	border:1px solid #ddd;
+	background:#222 50% top repeat-x;
+	color:#5c41d5
+}
+
+.ui-widget-content a{
+	color:#9b58f1
+}
+
+.ui-widget-header{
+	border:1px solid #c1a228;
+	background:#c1a228 50% 50% repeat-x;
+	color:#5c41d5;
+	font-weight:bold
+}
+
+.ui-widget-header a{
+	color:#5c41d5
+}
+
+.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{
+	border:1px solid #ccc;
+	background:#f6f6f6 50% 50% repeat-x;
+	font-weight:normal;
+	color:#9b58f1
+}
+
+.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{
+	color:#9b58f1;
+	text-decoration:none
+}
+
+.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{
+	border:1px solid #fbd850;
+	background:#222 50% 50% repeat-x;
+	font-weight:normal;
+	color:#c1a228
+}
+
+.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{
+	color:#222
+}
+
+.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a{
+	color:#222
+}
+
+.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text{
+	color:#222
+}
+
+body{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:14px;
+	line-height:18px;
+	color:#5c41d5
+}
+
+input[type="submit"]{
+	color:#9b58f1;
+	font-weight:bold;
+	border:0;
+	padding-left:6px;
+	background:transparent;
+	background-image:url(https://www.iccf.com/images/link.png);
+	background-position:0 5px;
+	background-repeat:no-repeat
+}
+
+input[type="button"]{
+	color:#9b58f1;
+	font-weight:bold;
+	border:0;
+	padding-left:6px;
+	background:transparent;
+	background-image:url(https://www.iccf.com/images/link.png);
+	background-position:0 5px;
+	background-repeat:no-repeat
+}
+
+input[type="button"]:hover{
+	text-decoration:underline;
+	color:#c1a228
+}
+
+input[type="button"].replay{
+	background-image:none;
+	background-color:#82a4c9;
+	color:#222
+}
+
+input[type="submit"].replay{
+	background-image:none;
+	background-color:#82a4c9;
+	color:#222
+}
+
+a{
+	text-decoration:none;
+	color:#9b58f1
+}
+
+a:visited{
+	color:#9b58f1
+}
+
+.masterbody{
+	background-color:#d8e6ef
+}
+
+#mastercontent{
+	background:#222
+}
+
+.masterrightcontent{
+	margin-left:20px;
+	margin-bottom:15px;
+	padding-left:10px;
+	padding-right:25px;
+	padding-bottom:10px;
+	background:#222
+}
+
+@media screen and (min-width:1024px){
+	#masterdropdown{
+		display:none
+	}
+
+	.masterbody{
+	        background-image:url(https://github.com/adversary-org/stylish-styles/blob/master/iccf.com/images/chess-wallpaper.jpg);
+		background-position:top left;
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover
+	}
+
+	#mastermenu{
+		font-family:Georgia,"Times New Roman",Times,serif;
+		font-style:italic;
+		background:#222;
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:25px;
+		-moz-box-shadow:5px 5px 5px #999;
+		-webkit-box-shadow:5px 5px 5px #999;
+		box-shadow:5px 5px 5px #999
+	}
+
+	#mastercontent{
+		background:#222;
+		min-width:500px;
+		padding:25px;
+		padding-top:0;
+		-moz-box-shadow:5px 5px 5px #999;
+		-webkit-box-shadow:5px 5px 5px #999;
+		box-shadow:5px 5px 5px #999
+	}
+
+	.masterrightcontent{
+		margin-left:20px;
+		margin-bottom:15px;
+		padding-left:10px;
+		padding-right:25px;
+		padding-bottom:10px;
+		background:#222;
+		-moz-box-shadow:5px 5px 5px #999;
+		-webkit-box-shadow:5px 5px 5px #999;
+		box-shadow:5px 5px 5px #999
+	}
+
 }
 
 }
