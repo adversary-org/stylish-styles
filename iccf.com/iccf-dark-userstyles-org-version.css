@@ -9,7 +9,6 @@
    Bitcoin:  1CUWLk5UJygDvsNNjmroqCd2uhgyKtH6Rb
 
    https://github.com/adversary-org/stylish-styles
-   https://github.com/adversary-org/stylish-styles/tree/master/iccf.com
    https://userstyles.org/styles/105662/dark-iccf
 */
 
@@ -37,28 +36,10 @@ input[type="button"].replay{
 	color:#222
 }
 
-input[type="button"].replay:hover{
-	text-decoration:none;
-	background-color:#c1a228
-}
-
 input[type="submit"].replay{
 	background-image:none;
 	background-color:#82a4c9;
 	color:#222
-}
-
-input[type="submit"].replay:hover{
-	text-decoration:none;
-	background-color:#c1a228
-}
-
-input[type="submit"].aspNetDisabled{
-	color:gray
-}
-
-input[type="submit"].aspNetDisabled:hover{
-	text-decoration:none
 }
 
 #mastercontent{
