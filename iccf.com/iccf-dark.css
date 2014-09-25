@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /* 
-    Dark ICCF (version 0.2)
+    Dark ICCF (version 0.2.1)
     Dark style for the International Correspondence Chess Federation site.
     Released under the GPLv3 (or later).
 
@@ -1896,5 +1896,15 @@ a.menu:visited{
 	}
 
 }
+
+/*
+
+    Removed board additions from this point, that is a work in
+    progress and anyone wising to try it will need to checkout the
+    board-mod and other board branches in the github repository.  So
+    far only the 64 pixels per square board has been made to work
+    following modification.
+
+*/
 
 }
