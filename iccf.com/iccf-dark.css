@@ -2179,12 +2179,14 @@ a.menu:visited{
 
 @media screen and (min-width:1920px) and (max-width:2199px){
 	.chessboard span{
+	        /* background-image:url(https://www.iccf.com/gif/64/64.png); */
 		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/64.png);
 		background-repeat:no-repeat;
 		display:inline-block
 	}
 
 	.cb-board{
+	        /* background-image:url(https://www.iccf.com/gif/64/64.png); */
 		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/64.png);
 		background-repeat:no-repeat;
 		position:relative;
@@ -2194,6 +2196,7 @@ a.menu:visited{
 	}
 
 	.cb-boardb{
+	        /* background-image:url(https://www.iccf.com/gif/64/64.png); */
 		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/64.png);
 		background-repeat:no-repeat;
 		position:relative;
@@ -2203,6 +2206,7 @@ a.menu:visited{
 	}
 
 	.cb-boardw{
+	        /* background-image:url(https://www.iccf.com/gif/64/64.png); */
 		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/64.png);
 		background-repeat:no-repeat;
 		position:relative;
