@@ -1,12 +1,14 @@
 @media screen and (max-width:239px){
 	.chessboard span{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/16.png);
+	        background-image:url(https://www.iccf.com/gif/16/16.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/16.png); */
 		background-repeat:no-repeat;
 		display:inline-block
 	}
 
 	.cb-board{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/16.png);
+	        background-image:url(https://www.iccf.com/gif/16/16.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/16.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -736px;
@@ -15,7 +17,8 @@
 	}
 
 	.cb-boardb{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/16.png);
+	        background-image:url(https://www.iccf.com/gif/16/16.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/16.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -945px;
@@ -24,7 +27,8 @@
 	}
 
 	.cb-boardw{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/16.png);
+	        background-image:url(https://www.iccf.com/gif/16/16.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/16.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1154px;
@@ -36,13 +40,15 @@
 
 @media screen and (min-width:240px) and (max-width:319px){
 	.chessboard span{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/24.png);
+	        background-image:url(https://www.iccf.com/gif/24/24.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/24.png); */
 		background-repeat:no-repeat;
 		display:inline-block
 	}
 
 	.cb-board{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/24.png);
+	        background-image:url(https://www.iccf.com/gif/24/24.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/24.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -816px;
@@ -51,7 +57,8 @@
 	}
 
 	.cb-boardb{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/24.png);
+	        background-image:url(https://www.iccf.com/gif/24/24.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/24.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1089px;
@@ -60,7 +67,8 @@
 	}
 
 	.cb-boardw{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/24.png);
+	        background-image:url(https://www.iccf.com/gif/24/24.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/24.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1362px;
@@ -72,13 +80,15 @@
 
 @media print,screen and (min-width:320px) and (max-width:1249px){
 	.chessboard span{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/32.png);
+	        background-image:url(https://www.iccf.com/gif/32/32.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/32.png); */
 		background-repeat:no-repeat;
 		display:inline-block
 	}
 
 	.cb-board{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/32.png);
+	        background-image:url(https://www.iccf.com/gif/32/32.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/32.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 0;
@@ -87,7 +97,8 @@
 	}
 
 	.cb-boardb{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/32.png);
+	        background-image:url(https://www.iccf.com/gif/32/32.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/32.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1479px;
@@ -96,7 +107,8 @@
 	}
 
 	.cb-boardw{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/32.png);
+	        background-image:url(https://www.iccf.com/gif/32/32.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/32.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1816px;
@@ -108,13 +120,15 @@
 
 @media screen and (min-width:1250px) and (max-width:1329px){
 	.chessboard span{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/36.png);
+	        background-image:url(https://www.iccf.com/gif/36/36.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/36.png); */
 		background-repeat:no-repeat;
 		display:inline-block
 	}
 
 	.cb-board{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/36.png);
+	        background-image:url(https://www.iccf.com/gif/36/36.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/36.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -936px;
@@ -123,7 +137,8 @@
 	}
 
 	.cb-boardb{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/36.png);
+	        background-image:url(https://www.iccf.com/gif/36/36.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/36.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1305px;
@@ -132,7 +147,8 @@
 	}
 
 	.cb-boardw{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/36.png);
+	        background-image:url(https://www.iccf.com/gif/36/36.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/36.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1674px;
@@ -144,13 +160,15 @@
 
 @media screen and (min-width:1330px) and (max-width:1519px){
 	.chessboard span{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/40.png);
+	        background-image:url(https://www.iccf.com/gif/40/40.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/40.png); */
 		background-repeat:no-repeat;
 		display:inline-block
 	}
 
 	.cb-board{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/40.png);
+	        background-image:url(https://www.iccf.com/gif/40/40.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/40.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -976px;
@@ -159,7 +177,8 @@
 	}
 
 	.cb-boardb{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/40.png);
+	        background-image:url(https://www.iccf.com/gif/40/40.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/40.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1377px;
@@ -168,7 +187,8 @@
 	}
 
 	.cb-boardw{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/40.png);
+	        background-image:url(https://www.iccf.com/gif/40/40.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/40.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1778px;
@@ -180,13 +200,15 @@
 
 @media screen and (min-width:1520px) and (max-width:1559px){
 	.chessboard span{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/48.png);
+	        background-image:url(https://www.iccf.com/gif/48/48.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/48.png); */
 		background-repeat:no-repeat;
 		display:inline-block
 	}
 
 	.cb-board{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/48.png);
+	        background-image:url(https://www.iccf.com/gif/48/48.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/48.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1056px;
@@ -195,7 +217,8 @@
 	}
 
 	.cb-boardb{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/48.png);
+	        background-image:url(https://www.iccf.com/gif/48/48.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/48.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1521px;
@@ -204,7 +227,8 @@
 	}
 
 	.cb-boardw{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/48.png);
+	        background-image:url(https://www.iccf.com/gif/48/48.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/48.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:-457px 0;
@@ -216,13 +240,15 @@
 
 @media screen and (min-width:1560px) and (max-width:1919px){
 	.chessboard span{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/50.png);
+	        background-image:url(https://www.iccf.com/gif/50/50.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/50.png); */
 		background-repeat:no-repeat;
 		display:inline-block
 	}
 
 	.cb-board{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/50.png);
+	        background-image:url(https://www.iccf.com/gif/50/50.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/50.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1076px;
@@ -231,7 +257,8 @@
 	}
 
 	.cb-boardb{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/50.png);
+	        background-image:url(https://www.iccf.com/gif/50/50.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/50.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1557px;
@@ -240,7 +267,8 @@
 	}
 
 	.cb-boardw{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/50.png);
+	        background-image:url(https://www.iccf.com/gif/50/50.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/50.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:-473px 0;
@@ -288,13 +316,15 @@
 
 @media screen and (min-width:2200px){
 	.chessboard span{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/96.png);
+	        background-image:url(https://www.iccf.com/gif/96/96.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/96.png); */
 		background-repeat:no-repeat;
 		display:inline-block
 	}
 
 	.cb-board{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/96.png);
+	        background-image:url(https://www.iccf.com/gif/96/96.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/96.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:0 -1536px;
@@ -303,7 +333,8 @@
 	}
 
 	.cb-boardb{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/96.png);
+	        background-image:url(https://www.iccf.com/gif/96/96.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/96.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:-841px 0;
@@ -312,7 +343,8 @@
 	}
 
 	.cb-boardw{
-		background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/96.png);
+	        background-image:url(https://www.iccf.com/gif/96/96.png);
+		/* background-image:url(https://raw.githubusercontent.com/adversary-org/stylish-styles/master/iccf.com/source-data/images/96.png); */
 		background-repeat:no-repeat;
 		position:relative;
 		background-position:-841px -849px;
