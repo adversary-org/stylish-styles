@@ -1901,7 +1901,7 @@ a.menu:visited{
 
 }
 
-.cb-left1:after{
+/* .cb-left1:after{
 	content: "1" !important;
 	color: white
 }
@@ -1939,41 +1939,10 @@ a.menu:visited{
 .cb-left8:after{
 	content: "8" !important;
 	color: white
-}
+} */
 
 @media screen and (min-width:1920px) and (max-width:2199px){
-	.chessboard span{
-		background-image:url(https://raw.githubusercontent.com/Hasimir/stylish-styles/coord-mod/iccf.com/source-data/images/64-mod.png);
-		background-repeat:no-repeat;
-		display:inline-block
-	}
 
-	.cb-board{
-		background-image:url(https://raw.githubusercontent.com/Hasimir/stylish-styles/coord-mod/iccf.com/source-data/images/64-mod.png);
-		background-repeat:no-repeat;
-		position:relative;
-		background-position:0 -1216px;
-		width:535px;
-		height:543px
-	}
-
-	.cb-boardb{
-		background-image:url(https://raw.githubusercontent.com/Hasimir/stylish-styles/coord-mod/iccf.com/source-data/images/64-mod.png);
-		background-repeat:no-repeat;
-		position:relative;
-		background-position:0 -1809px;
-		width:535px;
-		height:543px
-	}
-
-	.cb-boardw{
-		background-image:url(https://raw.githubusercontent.com/Hasimir/stylish-styles/coord-mod/iccf.com/source-data/images/64-mod.png);
-		background-repeat:no-repeat;
-		position:relative;
-		background-position:-585px 0;
-		width:535px;
-		height:543px
-	}
 
 }
 
