@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /* 
-    Dark ICCF (version 0.2.1-NCB-0.1.0)
+    Dark ICCF (version 0.2.1-NCB-0.1.1)
     Dark style for the International Correspondence Chess Federation site.
     Released under the GPLv3 (or later).
 
@@ -1939,6 +1939,42 @@ a.menu:visited{
 .cb-left8:after{
 	content: "8" !important;
 	color: white
+}
+
+@media screen and (min-width:1920px) and (max-width:2199px){
+	.chessboard span{
+		background-image:url(https://raw.githubusercontent.com/Hasimir/stylish-styles/coord-mod/iccf.com/source-data/images/64-mod.png);
+		background-repeat:no-repeat;
+		display:inline-block
+	}
+
+	.cb-board{
+		background-image:url(https://raw.githubusercontent.com/Hasimir/stylish-styles/coord-mod/iccf.com/source-data/images/64-mod.png);
+		background-repeat:no-repeat;
+		position:relative;
+		background-position:0 -1216px;
+		width:535px;
+		height:543px
+	}
+
+	.cb-boardb{
+		background-image:url(https://raw.githubusercontent.com/Hasimir/stylish-styles/coord-mod/iccf.com/source-data/images/64-mod.png);
+		background-repeat:no-repeat;
+		position:relative;
+		background-position:0 -1809px;
+		width:535px;
+		height:543px
+	}
+
+	.cb-boardw{
+		background-image:url(https://raw.githubusercontent.com/Hasimir/stylish-styles/coord-mod/iccf.com/source-data/images/64-mod.png);
+		background-repeat:no-repeat;
+		position:relative;
+		background-position:-585px 0;
+		width:535px;
+		height:543px
+	}
+
 }
 
 }
