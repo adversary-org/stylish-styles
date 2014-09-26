@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /* 
-    Dark ICCF (version 0.2.1-NCB-0.0.1)
+    Dark ICCF (version 0.2.1-NCB-0.1.0)
     Dark style for the International Correspondence Chess Federation site.
     Released under the GPLv3 (or later).
 
@@ -1901,6 +1901,303 @@ a.menu:visited{
 
 }
 
+@media screen and (max-width:239px){
+	.cb-left1:after{
+		content: "1" !important;
+		color: white
+	}
+	
+	.cb-left2:after{
+		content: "2" !important;
+		color: white
+	}
+	
+	.cb-left3:after{
+		content: "3" !important;
+		color: white
+	}
+	
+	.cb-left4:after{
+		content: "4" !important;
+		color: white
+	}
+	
+	.cb-left5:after{
+		content: "5" !important;
+		color: white
+	}
+	
+	.cb-left6:after{
+		content: "6" !important;
+		color: white
+	}
+	
+	.cb-left7:after{
+		content: "7" !important;
+		color: white
+	}
+	
+	.cb-left8:after{
+		content: "8" !important;
+		color: white
+	}
+}
+
+@media screen and (min-width:240px) and (max-width:319px){
+	.cb-left1:after{
+		content: "1" !important;
+		color: white
+	}
+	
+	.cb-left2:after{
+		content: "2" !important;
+		color: white
+	}
+	
+	.cb-left3:after{
+		content: "3" !important;
+		color: white
+	}
+	
+	.cb-left4:after{
+		content: "4" !important;
+		color: white
+	}
+	
+	.cb-left5:after{
+		content: "5" !important;
+		color: white
+	}
+	
+	.cb-left6:after{
+		content: "6" !important;
+		color: white
+	}
+	
+	.cb-left7:after{
+		content: "7" !important;
+		color: white
+	}
+	
+	.cb-left8:after{
+		content: "8" !important;
+		color: white
+	}
+}
+
+@media print,screen and (min-width:320px) and (max-width:1249px){
+	.cb-left1:after{
+		content: "1" !important;
+		color: white
+	}
+	
+	.cb-left2:after{
+		content: "2" !important;
+		color: white
+	}
+	
+	.cb-left3:after{
+		content: "3" !important;
+		color: white
+	}
+	
+	.cb-left4:after{
+		content: "4" !important;
+		color: white
+	}
+	
+	.cb-left5:after{
+		content: "5" !important;
+		color: white
+	}
+	
+	.cb-left6:after{
+		content: "6" !important;
+		color: white
+	}
+	
+	.cb-left7:after{
+		content: "7" !important;
+		color: white
+	}
+	
+	.cb-left8:after{
+		content: "8" !important;
+		color: white
+	}
+}
+
+@media screen and (min-width:1250px) and (max-width:1329px){
+	.cb-left1:after{
+		content: "1" !important;
+		color: white
+	}
+	
+	.cb-left2:after{
+		content: "2" !important;
+		color: white
+	}
+	
+	.cb-left3:after{
+		content: "3" !important;
+		color: white
+	}
+	
+	.cb-left4:after{
+		content: "4" !important;
+		color: white
+	}
+	
+	.cb-left5:after{
+		content: "5" !important;
+		color: white
+	}
+	
+	.cb-left6:after{
+		content: "6" !important;
+		color: white
+	}
+	
+	.cb-left7:after{
+		content: "7" !important;
+		color: white
+	}
+	
+	.cb-left8:after{
+		content: "8" !important;
+		color: white
+	}
+}
+
+@media screen and (min-width:1330px) and (max-width:1519px){
+	.cb-left1:after{
+		content: "1" !important;
+		color: white
+	}
+	
+	.cb-left2:after{
+		content: "2" !important;
+		color: white
+	}
+	
+	.cb-left3:after{
+		content: "3" !important;
+		color: white
+	}
+	
+	.cb-left4:after{
+		content: "4" !important;
+		color: white
+	}
+	
+	.cb-left5:after{
+		content: "5" !important;
+		color: white
+	}
+	
+	.cb-left6:after{
+		content: "6" !important;
+		color: white
+	}
+	
+	.cb-left7:after{
+		content: "7" !important;
+		color: white
+	}
+	
+	.cb-left8:after{
+		content: "8" !important;
+		color: white
+	}
+
+}
+
+@media screen and (min-width:1520px) and (max-width:1559px){
+	.cb-left1:after{
+		content: "1" !important;
+		color: white
+	}
+	
+	.cb-left2:after{
+		content: "2" !important;
+		color: white
+	}
+	
+	.cb-left3:after{
+		content: "3" !important;
+		color: white
+	}
+	
+	.cb-left4:after{
+		content: "4" !important;
+		color: white
+	}
+	
+	.cb-left5:after{
+		content: "5" !important;
+		color: white
+	}
+	
+	.cb-left6:after{
+		content: "6" !important;
+		color: white
+	}
+	
+	.cb-left7:after{
+		content: "7" !important;
+		color: white
+	}
+	
+	.cb-left8:after{
+		content: "8" !important;
+		color: white
+	}
+
+}
+
+@media screen and (min-width:1560px) and (max-width:1919px){
+	.cb-left1:after{
+		content: "1" !important;
+		color: white
+	}
+	
+	.cb-left2:after{
+		content: "2" !important;
+		color: white
+	}
+	
+	.cb-left3:after{
+		content: "3" !important;
+		color: white
+	}
+	
+	.cb-left4:after{
+		content: "4" !important;
+		color: white
+	}
+	
+	.cb-left5:after{
+		content: "5" !important;
+		color: white
+	}
+	
+	.cb-left6:after{
+		content: "6" !important;
+		color: white
+	}
+	
+	.cb-left7:after{
+		content: "7" !important;
+		color: white
+	}
+	
+	.cb-left8:after{
+		content: "8" !important;
+		color: white
+	}
+
+}
+
 @media screen and (min-width:1920px) and (max-width:2199px){
 	.cb-left1:after{
 		content: "1" !important;
@@ -1943,5 +2240,46 @@ a.menu:visited{
 	}
 }
 
+@media screen and (min-width:2200px){
+	.cb-left1:after{
+		content: "1" !important;
+		color: white
+	}
+	
+	.cb-left2:after{
+		content: "2" !important;
+		color: white
+	}
+	
+	.cb-left3:after{
+		content: "3" !important;
+		color: white
+	}
+	
+	.cb-left4:after{
+		content: "4" !important;
+		color: white
+	}
+	
+	.cb-left5:after{
+		content: "5" !important;
+		color: white
+	}
+	
+	.cb-left6:after{
+		content: "6" !important;
+		color: white
+	}
+	
+	.cb-left7:after{
+		content: "7" !important;
+		color: white
+	}
+	
+	.cb-left8:after{
+		content: "8" !important;
+		color: white
+	}
 }
 
+}
