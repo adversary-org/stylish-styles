@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /* 
-    Dark ICCF (version 0.2.1)
+    Dark ICCF (version 0.3)
     Dark style for the International Correspondence Chess Federation site.
     Released under the GPLv3 (or later).
 
@@ -9,9 +9,9 @@
     GPG Key:  0x321E4E2373590E5D
     Bitcoin:  1CUWLk5UJygDvsNNjmroqCd2uhgyKtH6Rb
 
+    https://userstyles.org/styles/105662/dark-iccf
     https://github.com/adversary-org/stylish-styles
     https://github.com/adversary-org/stylish-styles/tree/master/iccf.com
-    Limited version: https://userstyles.org/styles/105662/dark-iccf
 
     For support or bugs with this theme, please use the GitHub issues
     tracker:
@@ -1897,14 +1897,44 @@ a.menu:visited{
 
 }
 
-/*
+.cb-bbot{
+	background-color:tan !important;
+}
 
-    Removed board additions from this point, that is a work in
-    progress and anyone wising to try it will need to checkout the
-    board-mod and other board branches in the github repository.  So
-    far only the 64 pixels per square board has been made to work
-    following modification.
+.cb-left1{
+	background-color:tan !important;
+}
+	
+.cb-left2{
+	background-color:tan !important;
+}
+	
+.cb-left3{
+	background-color:tan !important;
+}
+	
+.cb-left4{
+	background-color:tan !important;
+}
+	
+.cb-left5{
+	background-color:tan !important;
+}
+	
+.cb-left6{
+	background-color:tan !important;
+}
+	
+.cb-left7{
+	background-color:tan !important;
+}
+	
+.cb-left8{
+	background-color:tan !important;
+}
 
-*/
+.cb-wbot{
+	background-color:tan !important;
+}
 
 }
