@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /* 
-    Dark ICCF (version 0.2.1-NCB-0.1.3)
+    Dark ICCF (version 0.2.1-NCB-0.1.4)
     Dark style for the International Correspondence Chess Federation site.
     Released under the GPLv3 (or later).
 
@@ -1901,263 +1901,44 @@ a.menu:visited{
 
 }
 
-/* .cb-left1:after{
-	content: "1" !important;
-	color: white
+.cb-bbot{
+	background-color:tan !important;
+}
+
+.cb-left1{
+	background-color:tan !important;
 }
 	
-.cb-left2:after{
-	content: "2" !important;
-	color: white
+.cb-left2{
+	background-color:tan !important;
 }
 	
-.cb-left3:after{
-	content: "3" !important;
-	color: white
+.cb-left3{
+	background-color:tan !important;
 }
 	
-.cb-left4:after{
-	content: "4" !important;
-	color: white
+.cb-left4{
+	background-color:tan !important;
 }
 	
-.cb-left5:after{
-	content: "5" !important;
-	color: white
+.cb-left5{
+	background-color:tan !important;
 }
 	
-.cb-left6:after{
-	content: "6" !important;
-	color: white
+.cb-left6{
+	background-color:tan !important;
 }
 	
-.cb-left7:after{
-	content: "7" !important;
-	color: white
+.cb-left7{
+	background-color:tan !important;
 }
 	
-.cb-left8:after{
-	content: "8" !important;
-	color: white
-} */
-
-@media screen and (max-width:239px){
-	.cb-bbot{
-		background-position:0 -198px;
-		background-color:tan;
-		width:151px;
-		height:26px
-	}
-
-	.cb-left1{
-		background-position:-201px -198px;
-		background-color:tan;
-		width:17px;
-		height:16px
-	}
-
-	.cb-left2{
-		background-position:-201px -264px;
-		background-color:tan;
-		width:17px;
-		height:16px
-	}
-
-	.cb-left3{
-		background-position:-201px -330px;
-		background-color:tan;
-		width:17px;
-		height:16px
-	}
-
-	.cb-left4{
-		background-position:-201px -396px;
-		background-color:tan;
-		width:17px;
-		height:16px
-	}
-
-	.cb-left5{
-		background-position:-201px -462px;
-		background-color:tan;
-		width:17px;
-		height:16px
-	}
-
-	.cb-left6{
-		background-position:-201px -528px;
-		background-color:tan;
-		width:17px;
-		height:16px
-	}
-
-	.cb-left7{
-		background-position:-201px -594px;
-		background-color:tan;
-		width:17px;
-		height:16px
-	}
-
-	.cb-left8{
-		background-position:-201px -660px;
-		background-color:tan;
-		width:17px;
-		height:16px
-	}
-
-	.cb-wbot{
-		background-position:-201px -1045px;
-		background-color:tan;
-		width:151px;
-		height:26px
-	}
-
+.cb-left8{
+	background-color:tan !important;
 }
 
-@media screen and (min-width:1920px) and (max-width:2199px){
-	.cb-bbot{
-		background-position:0 -342px;
-		background-color:tan;
-		width:535px;
-		height:26px
-	}
-
-	.cb-left1{
-		background-position:-585px -1923px;
-		background-color:tan;
-		width:17px;
-		height:64px;
-	}
-
-	.cb-left2{
-		background-position:-1170px 0;
-		background-color:tan;
-		width:17px;
-		height:64px
-	}
-
-	.cb-left3{
-		background-position:-1170px -114px;
-		background-color:tan;
-		width:17px;
-		height:64px
-	}
-
-	.cb-left4{
-		background-position:-1170px -228px;
-		background-color:tan;
-		width:17px;
-		height:64px
-	}
-
-	.cb-left5{
-		background-position:-1170px -342px;
-		background-color:tan;
-		width:17px;
-		height:64px
-	}
-
-	.cb-left6{
-		background-position:-1170px -456px;
-		background-color:tan;
-		width:17px;
-		height:64px
-	}
-
-	.cb-left7{
-		background-position:-1170px -570px;
-		background-color:tan;
-		width:17px;
-		height:64px
-	}
-
-	.cb-left8{
-		background-position:-1170px -684px;
-		background-color:tan;
-		width:17px;
-		height:64px
-	}
-
-	.cb-wbot{
-		background-position:-1170px -1309px;
-		background-color:tan;
-		width:535px;
-		height:26px
-	}
-
-}
-
-@media screen and (min-width:2200px){
-	.cb-bbot{
-		background-position:0 -438px;
-		background-color:tan;
-		width:791px;
-		height:26px
-	}
-
-	.cb-left1{
-		background-position:-1682px -1314px;
-		background-color:tan;
-		width:17px;
-		height:96px
-	}
-
-	.cb-left2{
-		background-position:-1682px -1460px;
-		background-color:tan;
-		width:17px;
-		height:96px
-	}
-
-	.cb-left3{
-		background-position:-1682px -1606px;
-		background-color:tan;
-		width:17px;
-		height:96px
-	}
-
-	.cb-left4{
-		background-position:-1682px -1752px;
-		background-color:tan;
-		width:17px;
-		height:96px
-	}
-
-	.cb-left5{
-		background-position:-1682px -1898px;
-		background-color:tan;
-		width:17px;
-		height:96px
-	}
-
-	.cb-left6{
-		background-position:-2523px 0;
-		background-color:tan;
-		width:17px;
-		height:96px
-	}
-
-	.cb-left7{
-		background-position:-2523px -146px;
-		background-color:tan;
-		width:17px;
-		height:96px
-	}
-
-	.cb-left8{
-		background-position:-2523px -292px;
-		background-color:tan;
-		width:17px;
-		height:96px
-	}
-
-	.cb-wbot{
-		background-position:-2523px -1077px;
-		background-color:tan;
-		width:791px;
-		height:26px
-	}
-
+.cb-wbot{
+	background-color:tan !important;
 }
 
 }
