@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /* 
-    Dark ICCF (version 0.2.1-NCB-0.1.1)
+    Dark ICCF (version 0.2.1-NCB-0.1.2)
     Dark style for the International Correspondence Chess Federation site.
     Released under the GPLv3 (or later).
 
@@ -1942,7 +1942,75 @@ a.menu:visited{
 } */
 
 @media screen and (min-width:1920px) and (max-width:2199px){
+	.cb-bbot{
+		background-position:0 -342px;
+		background-color:tan;
+		width:535px;
+		height:26px
+	}
 
+	.cb-left1{
+		background-position:-585px -1923px;
+		background-color:tan;
+		width:17px;
+		height:64px;
+	}
+
+	.cb-left2{
+		background-position:-1170px 0;
+		background-color:tan;
+		width:17px;
+		height:64px
+	}
+
+	.cb-left3{
+		background-position:-1170px -114px;
+		background-color:tan;
+		width:17px;
+		height:64px
+	}
+
+	.cb-left4{
+		background-position:-1170px -228px;
+		background-color:tan;
+		width:17px;
+		height:64px
+	}
+
+	.cb-left5{
+		background-position:-1170px -342px;
+		background-color:tan;
+		width:17px;
+		height:64px
+	}
+
+	.cb-left6{
+		background-position:-1170px -456px;
+		background-color:tan;
+		width:17px;
+		height:64px
+	}
+
+	.cb-left7{
+		background-position:-1170px -570px;
+		background-color:tan;
+		width:17px;
+		height:64px
+	}
+
+	.cb-left8{
+		background-position:-1170px -684px;
+		background-color:tan;
+		width:17px;
+		height:64px
+	}
+
+	.cb-wbot{
+		background-position:-1170px -1309px;
+		background-color:tan;
+		width:535px;
+		height:26px
+	}
 
 }
 
