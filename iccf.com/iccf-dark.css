@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /* 
-    Dark ICCF (version 0.3.1)
+    Dark ICCF (version 0.3.2)
     Dark style for the International Correspondence Chess Federation site.
     Released under the GPLv3 (or later).
 
@@ -1896,46 +1896,6 @@ a.menu:visited{
 		display:none
 	}
 
-}
-
-.cb-bbot{
-	background-color:tan !important;
-}
-
-.cb-left1{
-	background-color:tan !important;
-}
-	
-.cb-left2{
-	background-color:tan !important;
-}
-	
-.cb-left3{
-	background-color:tan !important;
-}
-	
-.cb-left4{
-	background-color:tan !important;
-}
-	
-.cb-left5{
-	background-color:tan !important;
-}
-	
-.cb-left6{
-	background-color:tan !important;
-}
-	
-.cb-left7{
-	background-color:tan !important;
-}
-	
-.cb-left8{
-	background-color:tan !important;
-}
-
-.cb-wbot{
-	background-color:tan !important;
 }
 
 }
