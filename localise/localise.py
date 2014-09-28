@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 
-# Copytight © Ben McGinnes, 2014
+# Copytight (C) Ben McGinnes, 2014
 # ben@adversary.org
 # License: GPLv3 or any later version
 
@@ -8,7 +8,7 @@
 # them and rewrites all the files with the images embedded.  Intended
 # for use with CSS files and specifically for Stylish themes.
 
-import base64
+import binascii
 import os.path
 import re
 import requests
@@ -16,29 +16,50 @@ import sys
 
 curdir = os.path.abspath(".")
 infile = os.path.abspath(sys.argv[1])
+outfile = curdir + "new_" + sys.argv[1]
 
-f1 = open(infile, "r")
-lines = f1.readlines()
-f1.close()
+f = open(infile, "r")
+lines = f.readlines()
+f.close()
 
-url_list = infile + ".tmp1.txt"
+unicorn = []
 
-f2 = open(url_list, "w")
 for line in lines:
-    f2.write(re.findall('url\(([^)]+)\)', line))
-f2.close()
+    pattern = re.findall(r"(https?://[^\s]+)", line)
+    if pattern is not null and len(pattern) > 1:
+        for horn in pattern:
+            if horn.endswith(")"):
+                unicorn.append(horn[0:len(horn) - 1])
+            elif horn.endswith(");"):
+                unicorn.append(horn[0:len(horn) - 2])
+            else:
+                unicorn.append(horn)
+    elif pattern is not null and len(pattern) == 1:
+        jewel = pattern[0]
+        if jewel.endswith(")"):
+            unicorn.append(jewel[0:len(jewel) - 1])
+        elif jewel.endswith(");"):
+            unicorn.append(jewel[0:len(jewel) - 2])
+        else:
+            unicorn.append(jewel)
 
-f3 = open(url_list, "r")
-pics = f3.readlines()
-f3.close()
+for Order in unicorn:
+    head, tail = os.path.split(Order)
+    rOrder = requests.get(Order)
+    fOrder = open(curdir + tail, "wb")
+    fOrder.write(rOrder.content)
+    fOrder.close()
+    rtype = rOrder.headers["content-type"]
+    rhead = "data:" + rtype + ";base64,"
+    bOrder = binascii.b2a_base64(rOrder.content).strip()
+    logrus = rhead + bOrder
+    chaos = open(outfile, "w")
+    for line in lines:
+        if Order in line:
+            line = re.sub(Order, logrus, line)
+        chaos.write(line)
+    chaos.close()
 
-for pic in pics:
-    rpic = requests.get(pic)
-    head, tail = os.path.split(rpic.url)
-    fpic = open(curdir + tail, "wb")
-    fpic.write(rpic.content)
-    fpic.close()
-    base64.encode(curdir + tail, curdir + tail + ".base64")
 
 # next need to pillage my line replacement code (pattern/logrus) to
 # rewrite the CSS file (don't forget to get rid of the "\n" at the end
