@@ -92,7 +92,7 @@ for i in range(la):
                     for line in abyss:
                         for order in patternfall:
                             if order in line:
-                                line = line.replace(order, patternfall[order])
+                                line = re.sub(order, patternfall[order])
                         logrus.write(line)
                 logrus.close()
             abyss.close()
