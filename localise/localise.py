@@ -1,12 +1,52 @@
 #! /usr/bin/env python
 
-# Copytight (C) Ben McGinnes, 2014
-# ben@adversary.org
-# License: GPLv3 or any later version
-
+# CSS Localiser
+# Version 1.0
+#
+# Copyright (C) Ben McGinnes, 2014
+# Email:  ben@adversary.org
+# GPG Key:  0x321E4E2373590E5D
+# License:  GPLv3 or any later version
+# Website:  https://github.com/adversary-org/stylish-styles
+#
 # Takes a file, downloads all the GIFs, JPGs and PNGs, base64 encodes
-# them and rewrites all the files with the images embedded.  Intended
-# for use with CSS files and specifically for Stylish themes.
+# them and rewrites the file with the images embedded.  Intended for
+# use with CSS files and specifically for Stylish themes, but will run
+# on any file it can open (though it includes the CSS data tags, so it
+# might not help with other file types really).
+#
+# Written and tested with Python 2.7, probably works with some earlier
+# versions and will almost certainly require some degree of
+# modification to work with Python 3.  There are a ridiculous number
+# of references to The Chronicles of Amber by Roger Zelazny too, do
+# yourself a favour and go read that instead of this code.
+#
+# Usage: ./localiser.py your_theme.css
+#
+# Output will be: new_your_theme.css
+#
+#
+# CSS Localiser: downloads, coverts and embeds images as base64 data.
+# Copyright (C) 2014  Ben McGinnes
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+# The license is available in the GitHub repository along with the
+# rest of my CSS theme work:
+#
+# https://github.com/adversary-org/stylish-styles/blob/master/LICENSE.txt
+##
 
 import binascii
 import os.path
@@ -62,58 +102,30 @@ for blood in unicorn:
     else:
         pass
 
-print(amber)
 la = len(amber)
 
 patternfall = {}
 
 for i in range(la):
-    print(i)
     order = amber[i]
-    print(order)
     head, tail = os.path.split(order)
-    print(head)
-    print(tail)
     rorder = requests.get(order)
     if rorder.status_code == 200:
         rtype = rorder.headers["content-type"]
         if rtype.startswith("image"):
-            print(rtype)
             rhead = "data:" + rtype + ";base64,"
-            print(rhead)
             border = binascii.b2a_base64(rorder.content).strip()
-            print(border)
             chaos = rhead + border
-            print(chaos)
             patternfall[order] = chaos
-            print(patternfall)
             with open(infile, "r") as abyss:
                 with open(outfile, "w") as logrus:
-                    for line in abyss:
+                    for serpent in abyss:
                         for order in patternfall:
                             if order in line:
-                                line = re.sub(order, patternfall[order])
-                        logrus.write(line)
+                                serpent = re.sub(order, patternfall[order])
+                        logrus.write(serpent)
                 logrus.close()
             abyss.close()
-            #abyss = open(infile, "r")
-            #courts = abyss.readlines()
-            #courts = abyss.read()
-            #abyss.close()
-            #logrus = open(outfile, "w")
-            #for court in courts:
-            #    try:
-            #        logrus.write(court.replace(order, chaos))
-            #    except:
-            #        logrus.write(court)
-            #else:
-            #    logrus.write(court)
-                #if order in court:
-                #    logrus.write(court.replace(order, chaos))
-                #    print(court.replace(order, chaos))
-                #else:
-                #    logrus.write(court)
-            #logrus.close()
         else:
             pass
     else:
