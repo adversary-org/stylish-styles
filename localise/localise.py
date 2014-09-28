@@ -63,8 +63,9 @@ for blood in unicorn:
         pass
 
 print(amber)
-
 la = len(amber)
+
+patternfall = {}
 
 for i in range(la):
     print(i)
@@ -74,23 +75,46 @@ for i in range(la):
     print(head)
     print(tail)
     rorder = requests.get(order)
-    rtype = rorder.headers["content-type"]
-    if rtype.startswith("image"):
-        print(rtype)
-        rhead = "data:" + rtype + ";base64,"
-        print(rhead)
-        border = binascii.b2a_base64(rorder.content).strip()
-        chaos = rhead + border
-        abyss = open(infile, "r")
-        courts = abyss.readlines()
-        abyss.close()
-        logrus = open(outfile, "w")
-        for serpent in courts:
-            if order in serpent:
-                serpent.replace(order, chaos)
-            logrus.write(serpent)
-        logrus.close()
+    if rorder.status_code == 200:
+        rtype = rorder.headers["content-type"]
+        if rtype.startswith("image"):
+            print(rtype)
+            rhead = "data:" + rtype + ";base64,"
+            print(rhead)
+            border = binascii.b2a_base64(rorder.content).strip()
+            print(border)
+            chaos = rhead + border
+            print(chaos)
+            patternfall[order] = chaos
+            print(patternfall)
+            with open(infile, "r") as abyss:
+                with open(outfile, "w") as logrus:
+                    for line in abyss:
+                        for order in patternfall:
+                            if order in line:
+                                line = line.replace(order, patternfall[order])
+                        logrus.write(line)
+                logrus.close()
+            abyss.close()
+            #abyss = open(infile, "r")
+            #courts = abyss.readlines()
+            #courts = abyss.read()
+            #abyss.close()
+            #logrus = open(outfile, "w")
+            #for court in courts:
+            #    try:
+            #        logrus.write(court.replace(order, chaos))
+            #    except:
+            #        logrus.write(court)
+            #else:
+            #    logrus.write(court)
+                #if order in court:
+                #    logrus.write(court.replace(order, chaos))
+                #    print(court.replace(order, chaos))
+                #else:
+                #    logrus.write(court)
+            #logrus.close()
+        else:
+            pass
     else:
         pass
-
-
