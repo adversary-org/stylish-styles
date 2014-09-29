@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 
-# CSS Localiser
+# CSS Localiser (CSS Localizer)
 # Version 1.0
 #
 # Copyright (C) Ben McGinnes, 2014
@@ -9,11 +9,15 @@
 # License:  GPLv3 or any later version
 # Website:  https://github.com/adversary-org/stylish-styles
 #
-# Takes a file, downloads all the GIFs, JPGs and PNGs, base64 encodes
-# them and rewrites the file with the images embedded.  Intended for
-# use with CSS files and specifically for Stylish themes, but will run
-# on any file it can open (though it includes the CSS data tags, so it
-# might not help with other file types really).
+# Takes a file, downloads all the GIFs, JPGs and PNGs, then copies or
+# moves them to a custom directory (here specific to the Stylish
+# extension) and rewrites the file with the images local URLs called.
+# Intended for use with CSS files and specifically for Stylish themes,
+# but will run on any file it can open (though it includes the CSS
+# data tags, so it might not help with other file types really).
+#
+# Since it's basically the same as localise.py except without the
+# base64 encoding, the very slight name change seemed appropriate.
 #
 # Written and tested with Python 2.7, probably works with some earlier
 # versions and will almost certainly require some degree of
@@ -21,12 +25,13 @@
 # of references to The Chronicles of Amber by Roger Zelazny too, do
 # yourself a favour and go read that instead of this code.
 #
-# Usage: ./localise.py your_theme.css
+# Usage: ./localize.py your_theme.css
 #
-# Output will be: new_your_theme.css
+# Output will be: new_your_theme.css and the image files downloaded to
+# the specified directory (a hidden folder on Linux and OS X).
 #
 #
-# CSS Localiser: downloads, coverts and embeds images as base64 data.
+# CSS Localizer: downloads, coverts and embeds images as base64 data.
 # Copyright (C) 2014  Ben McGinnes
 #
 # This program is free software: you can redistribute it and/or modify
@@ -48,15 +53,40 @@
 # https://github.com/adversary-org/stylish-styles/blob/master/LICENSE.txt
 ##
 
-import binascii
+import os
 import os.path
 import re
 import requests
 import sys
 
+sa = sys.argv[1]
+
+home = os.path.expanduser("~")
+windir = "\\Stylish\\"
+nixdir = "/.stylish/"
 curdir = os.path.abspath(".")
-infile = os.path.abspath(sys.argv[1])
-outfile = os.path.abspath(curdir + "/new_" + sys.argv[1])
+infile = os.path.abspath(sa)
+outfile = os.path.abspath(curdir + "/new_" + sa)
+
+if sys.platform is "linux" or "linux2" or "darwin":
+    styledir = home + nixdir
+    themedir = styledir + sa.replace(".", "-") + "/"
+elif sys.platform is "win32":
+    styledir = home + windir
+    themedir = styledir + sa.replace(".", "-") + "\\"
+else:
+    styledir = home + nixdir
+    themedir = styledir + sa.replace(".", "-") + "/"
+
+if os.path.exists(styledir) is not True:
+    os.mkdir(styledir)
+else:
+    pass
+
+if os.path.exists(themedir) is not True:
+    os.mkdir(themedir)
+else:
+    pass
 
 f = open(infile, "r")
 lines = f.readlines()
@@ -66,9 +96,6 @@ unicorn = []
 
 for line in lines:
     pattern = re.findall(r"(https?://[^\s]+)", line)
-    # whoever called these things "regular expressions" never picked
-    # up a dictionary in his life.  Most oxymoronic term in all
-    # computing ... they're hardly fucking regular!
     if len(pattern) > 1:
         for horn in pattern:
             if horn.endswith(")"):
@@ -113,9 +140,12 @@ for i in range(la):
     if rorder.status_code == 200:
         rtype = rorder.headers["content-type"]
         if rtype.startswith("image"):
-            rhead = "data:" + rtype + ";base64,"
-            border = binascii.b2a_base64(rorder.content).strip()
-            chaos = rhead + border
+            rhead = "file:///"
+            pit = themedir + tail
+            chaos = rhead + pit
+            trump = open(pit, "wb")
+            trump.write(rorder.content)
+            trump.close()
             patternfall[order] = chaos
             with open(infile, "r") as abyss:
                 with open(outfile, "w") as logrus:

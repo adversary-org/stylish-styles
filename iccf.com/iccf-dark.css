@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /* 
-    Dark ICCF (version 0.3.4)
+    Dark ICCF (version 0.3.5)
     Dark style for the International Correspondence Chess Federation site.
     Released under the GPLv3 (or later).
 
@@ -1906,6 +1906,11 @@ a.menu:visited{
 
 }
 
+/* Use of these settings with either localise.py or localize.py are
+   proving problematic at the moment for reasons which are not yet
+   apparent and may relate to either the properties of the PNGs or the
+   ICCF website itself.  The 64 pixel board appears to be fine, though.
+
 @media screen and (max-width:239px){
 	.chessboard span{
 		background-image:url(https://www.iccf.com/gif/16/16.png);
@@ -2229,5 +2234,7 @@ a.menu:visited{
 	}
 
 }
+
+*/
 
 }
