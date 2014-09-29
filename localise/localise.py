@@ -121,8 +121,8 @@ for i in range(la):
                 with open(outfile, "w") as logrus:
                     for serpent in abyss:
                         for order in patternfall:
-                            if order in line:
-                                serpent = re.sub(order, patternfall[order])
+                            if order in serpent:
+                                serpent = re.sub(order, patternfall[order], serpent)
                         logrus.write(serpent)
                 logrus.close()
             abyss.close()
