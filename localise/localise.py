@@ -21,7 +21,7 @@
 # of references to The Chronicles of Amber by Roger Zelazny too, do
 # yourself a favour and go read that instead of this code.
 #
-# Usage: ./localiser.py your_theme.css
+# Usage: ./localise.py your_theme.css
 #
 # Output will be: new_your_theme.css
 #
