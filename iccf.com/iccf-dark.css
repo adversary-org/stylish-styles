@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /* 
-    Dark ICCF (version 0.3.2)
+    Dark ICCF (version 0.3.3)
     Dark style for the International Correspondence Chess Federation site.
     Released under the GPLv3 (or later).
 
@@ -17,6 +17,14 @@
     tracker:
 
     https://github.com/adversary-org/stylish-styles/issues
+
+    Please note that the freestyler.ws website, which distributes a
+    deprecated version of this theme is NOT endorsed by the author in
+    any way, nor is their site or browser extension.  Only the Stylish
+    extension for Firefox and Chrome is endorsed.  Get the original
+    and current theme at either the userstyles.org or github.com URLs
+    above.
+
 */
 
 @-moz-document domain("iccf.com") {
