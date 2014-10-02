@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /*
-    Ello Ello (version 0.1.0)
+    Ello Ello (version 0.1.1)
     Dark style for the Ello.co social network.
     Released under the GPLv3 (or later) and the CC-BY-SA 4.0 license.
 
@@ -66,7 +66,7 @@ body {background-color: #222222 !important;}
 
 .heading, .feature__list h1, .feature__list h2, .system-post h1, .notification-post h1, .heading--large, .heading--normal, .system-post h2, .notification-post h2, .notification-post p, .bolded-post p {color: #DCE0DF !important;}
 
-p a:focus, p a:active, .no-touch p a:hover {color: #383838 !important;}
+p a:focus, p a:active, .no-touch p a:hover {color: #00ADEE !important;}
 
 mark {background-color: #1D123E !important;}
 
@@ -76,11 +76,11 @@ hr {border-top-color: #0E0E0E !important;}
 
 tr {border-bottom-color: #0E0E0E !important;}
 
-.btn[disabled], .authentication__form input[disabled][type="submit"], .btn--inverted[disabled] {background-color: #0E0E0E !important;border-top-color: #0E0E0E !important;border-right-color: #0E0E0E !important;border-bottom-color: #0E0E0E !important;border-left-color: #0E0E0E !important;color: #383838 !important;}
+.btn[disabled], .authentication__form input[disabled][type="submit"], .btn--inverted[disabled] {background-color: #0E0E0E !important;border-top-color: #0E0E0E !important;border-right-color: #0E0E0E !important;border-bottom-color: #0E0E0E !important;border-left-color: #0E0E0E !important;color: #00ADEE !important;}
 
 .btn--transparent[disabled], .btn--light[disabled], .delete__dialog button[disabled] {color: #1A1A1A !important;}
 
-.btn--outlined[disabled], .btn--tab[disabled] {background-color: #222222 !important;border-top-color: #1A1A1A !important;border-right-color: #1A1A1A !important;border-bottom-color: #1A1A1A !important;border-left-color: #1A1A1A !important;color: #383838 !important;}
+.btn--outlined[disabled], .btn--tab[disabled] {background-color: #222222 !important;border-top-color: #1A1A1A !important;border-right-color: #1A1A1A !important;border-bottom-color: #1A1A1A !important;border-left-color: #1A1A1A !important;color: #00ADEE !important;}
 
 .btn, .authentication__form input[type="submit"] {background-color: #FFFFFF !important;border-top-color: #FFFFFF !important;border-right-color: #FFFFFF !important;border-bottom-color: #FFFFFF !important;border-left-color: #FFFFFF !important;color: #222222 !important;}
 
@@ -92,15 +92,15 @@ tr {border-bottom-color: #0E0E0E !important;}
 
 .btn--inverted {background-color: #1A1A1A !important;border-top-color: #1A1A1A !important;border-right-color: #1A1A1A !important;border-bottom-color: #1A1A1A !important;border-left-color: #1A1A1A !important;color: #999999 !important;}
 
-.btn--inverted:focus, .btn--inverted:active, .no-touch .btn--inverted:hover {background-color: #383838 !important;border-top-color: #383838 !important;border-right-color: #383838 !important;border-bottom-color: #383838 !important;border-left-color: #383838 !important;color: #999999 !important;}
+.btn--inverted:focus, .btn--inverted:active, .no-touch .btn--inverted:hover {background-color: #00ADEE !important;border-top-color: #00ADEE !important;border-right-color: #00ADEE !important;border-bottom-color: #00ADEE !important;border-left-color: #00ADEE !important;color: #999999 !important;}
 
-.btn--transparent {color: #383838 !important;}
+.btn--transparent {color: #00ADEE !important;}
 
-.btn--transparent:focus, .btn--transparent:active, .no-touch .btn--transparent:hover {background-color: #0E0E0E !important;border-top-color: #0E0E0E !important;border-right-color: #0E0E0E !important;border-bottom-color: #0E0E0E !important;border-left-color: #0E0E0E !important;color: #383838 !important;}
+.btn--transparent:focus, .btn--transparent:active, .no-touch .btn--transparent:hover {background-color: #0E0E0E !important;border-top-color: #0E0E0E !important;border-right-color: #0E0E0E !important;border-bottom-color: #0E0E0E !important;border-left-color: #0E0E0E !important;color: #00ADEE !important;}
 
 .btn--light, .delete__dialog button {background-color: #222222 !important;border-top-color: #222222 !important;border-right-color: #222222 !important;border-bottom-color: #222222 !important;border-left-color: #222222 !important;color: #FFFFFF !important;}
 
-.btn--light:focus, .delete__dialog button:focus, .btn--light:active, .no-touch .btn--light:hover, .no-touch .delete__dialog button:hover, .delete__dialog .no-touch button:hover, .no-touch .btn--light.active, .no-touch .delete__dialog button.active, .delete__dialog .no-touch button.active, .delete__dialog button:active {background-color: #383838 !important;border-top-color: #383838 !important;border-right-color: #383838 !important;border-bottom-color: #383838 !important;border-left-color: #383838 !important;}
+.btn--light:focus, .delete__dialog button:focus, .btn--light:active, .no-touch .btn--light:hover, .no-touch .delete__dialog button:hover, .delete__dialog .no-touch button:hover, .no-touch .btn--light.active, .no-touch .delete__dialog button.active, .delete__dialog .no-touch button.active, .delete__dialog button:active {background-color: #00ADEE !important;border-top-color: #00ADEE !important;border-right-color: #00ADEE !important;border-bottom-color: #00ADEE !important;border-left-color: #00ADEE !important;}
 
 .btn--light.active, .delete__dialog button.active {background-color: #B2B2B2 !important;border-top-color: #B2B2B2 !important;border-right-color: #B2B2B2 !important;border-bottom-color: #B2B2B2 !important;border-left-color: #B2B2B2 !important;}
 
@@ -122,7 +122,7 @@ tr {border-bottom-color: #0E0E0E !important;}
 
 .tab__value {color: #666666 !important;}
 
-[disabled] .tab__value {color: #383838 !important;}
+[disabled] .tab__value {color: #00ADEE !important;}
 
 input::-moz-placeholder, textarea::-moz-placeholder {color: #999999 !important;}
 
@@ -214,7 +214,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {color: #999999 !important;}
 
 .no-touch .completion a:hover {background-color: #B2B2B2 !important;}
 
-.postbar {color: #383838 !important;}
+.postbar {color: #00ADEE !important;}
 
 .collapse--active .postbar__comment .postbar__value {color: #FFFFFF !important;}
 
@@ -226,7 +226,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {color: #999999 !important;}
 
 .share__control {background-color: #FFFFFF !important;border-top-color: #FFFFFF !important;border-right-color: #FFFFFF !important;border-bottom-color: #FFFFFF !important;border-left-color: #FFFFFF !important;color: #222222 !important;}
 
-.profile__name, .profile__deets, .profile__links {color: #383838 !important;}
+.profile__name, .profile__deets, .profile__links {color: #00ADEE !important;}
 
 .profile__deets span {color: #666666 !important;}
 
@@ -268,13 +268,13 @@ input::-moz-placeholder, textarea::-moz-placeholder {color: #999999 !important;}
 
 .editor--focused.is-mention:before {border-right-color: #000033 !important;}
 
-.text__tool {background-color: #222222 !important;color: #383838 !important;}
+.text__tool {background-color: #222222 !important;color: #00ADEE !important;}
 
 .bold--active .bold__tool, .italic--active .italic__tool {color: #FFFFFF !important;}
 
 .link__control {background-color: #222222 !important;color: #FFFFFF !important;}
 
-.link__control::-moz-placeholder {color: #383838 !important;}
+.link__control::-moz-placeholder {color: #00ADEE !important;}
 
 .editor__block {border-top-color: #FFFFFF !important;border-right-color: #FFFFFF !important;border-bottom-color: #FFFFFF !important;border-left-color: #FFFFFF !important;}
 
@@ -312,7 +312,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {color: #999999 !important;}
 
 #messages {background-color: #222222 !important;}
 
-.message__subject {color: #383838 !important;}
+.message__subject {color: #00ADEE !important;}
 
 .message--unread:before {background-color: #FFFFFF !important;}
 
@@ -364,17 +364,17 @@ input::-moz-placeholder, textarea::-moz-placeholder {color: #999999 !important;}
 
 .profile__flash-message {background-color: #FFFFFF !important;color: #222222 !important;}
 
-.bio__counter {color: #383838 !important;}
+.bio__counter {color: #00ADEE !important;}
 
 .bio__counter.exceeded {color: #00FFFF !important;}
 
 .delete__dialog header {color: #222222 !important;}
 
-.searchbar__field {border-bottom-color: #383838 !important;}
+.searchbar__field {border-bottom-color: #00ADEE !important;}
 
 .searchbar__field::-moz-placeholder {color: #FFFFFF !important;}
 
-.post .more-fun {color: #383838 !important;}
+.post .more-fun {color: #00ADEE !important;}
 
 .hll {background-color: #000033 !important;}
 
