@@ -1,0 +1,78 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain(chesschat.org){
+
+.blockhead {text-shadow: 0px 1px 0px rgb(16,41,70) !important;}
+
+.navpopupbody.popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+#inlinemod_formctrls .popupbody, #usercp_content .popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+.notifications .popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+.nonotifications .popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+.navtabs .popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+.picker {background-image: linear-gradient(rgb(238,238,238), rgb(153,153,153)) !important;background-repeat: repeat !important;}
+
+.lightgraybackground {background-image: linear-gradient(rgb(255,255,255), rgb(204,204,204)) !important;background-repeat: repeat !important;}
+
+.alert_box {background-image: linear-gradient(rgb(255,255,255), rgb(136,136,136)) !important;background-repeat: repeat !important;}
+
+.alert_box .bd {background-image: linear-gradient(rgb(255,255,255), rgb(136,136,136)) !important;background-repeat: repeat !important;}
+
+.alert_box .ft {background-image: linear-gradient(rgb(136,136,136), rgb(0,0,0)) !important;background-repeat: repeat !important;}
+
+.alert_box .ft input.btn {background-image: linear-gradient(rgb(136,136,136), rgb(0,0,0)) !important;background-repeat: repeat !important;}
+
+.ok_button {background-image: linear-gradient(rgb(136,136,136), rgb(0,0,0)) !important;background-repeat: repeat !important;}
+
+.assetpicker_body {background-image: linear-gradient(rgb(255,255,255), rgb(153,153,153)) !important;background-repeat: repeat !important;}
+
+#navbar_loginform .loginbutton {text-shadow: 0px 1px 0px rgb(16,41,70) !important;}
+
+.notifications-number {text-shadow: 0px 1px 0px rgb(16,41,70) !important;}
+
+#above_searchresults.floatcontainer .popupbody, #usercp_content .forumdisplaypopups .popupbody, .pagination .popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+#folderpicker .popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+.cp_content #pmfolderlist .popupbody, #calendarpicker .popupmenu .popupbody, #view-group-discussion-popups .popupmenu .popupbody, #picturecommentpopups .popupmenu .popupbody, #above_memberlist #memberlist_menus .popupmenu .popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+.popupbody.filter {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+.blog .popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+#blog_user_sidebar .blocksubhead {text-shadow: 0px 1px 0px rgb(16,41,70) !important;}
+
+.cms_widget_header {text-shadow: 0px 1px 0px rgb(16,41,70) !important;}
+
+.toolsmenu .popupgroup ul {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+#navbar_loginform .loginbutton {text-shadow: 0px 1px 0px rgb(16,41,70) !important;}
+
+.notifications-number {text-shadow: 0px 1px 0px rgb(16,41,70) !important;}
+
+#above_searchresults.floatcontainer .popupbody, #usercp_content .forumdisplaypopups .popupbody, .pagination .popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+#folderpicker .popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+.cp_content #pmfolderlist .popupbody, #calendarpicker .popupmenu .popupbody, #view-group-discussion-popups .popupmenu .popupbody, #picturecommentpopups .popupmenu .popupbody, #above_memberlist #memberlist_menus .popupmenu .popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+.popupbody.filter {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+.blog .popupbody {background-image: linear-gradient(to bottom, rgb(232,232,232) 0%, rgb(255,255,255) 100%) !important;background-repeat: repeat !important;}
+
+#blog_user_sidebar .blocksubhead {text-shadow: 0px 1px 0px rgb(16,41,70) !important;}
+
+.cms_widget_header {text-shadow: 0px 1px 0px rgb(16,41,70) !important;}
+
+#stefanvddynamicbackground #stefanvddynamicspace {background-image: radial-gradient(rgba(119,106,127,0.15) 0px, rgba(0,0,0,0) 66%, rgba(127,18,148,0.2) 98%) !important;background-repeat: repeat !important;}
+
+#stefanvddynamicbackground #stefanvddynamicspacenoflying {background-image: radial-gradient(rgba(119,106,127,0.15) 0px, rgba(0,0,0,0) 66%, rgba(127,18,148,0.2) 98%) !important;background-repeat: repeat !important;}
+
+
+
+}
+
