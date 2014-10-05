@@ -2,19 +2,19 @@
 
 @-moz-document domain("freechess.org") {
 
-body {color: #FFFFFF !important;background-color: #000000 !important;}
+body {color: #FFFFFF !important;background-color: #222222 !important;}
 
 input, textarea, select {color: #FFFFFF;background-color: #000000;border-color: #37332B;-moz-appearance: none !important;}
 
-BODY {color: #FFFFFF !important;background-color: #000000 !important;}
+BODY {color: #FFFFFF !important;background-color: #222222 !important;}
 
-A:link {color: #222222 !important;}
+A:link {color: #000000 !important;}
 
 A:visited {color: #222222 !important;}
 
-A:active {color: #222222 !important;}
+A:active {color: #00ADEE !important;}
 
-A:hover {color: #226969 !important;}
+A:hover {color: #00ADEE !important;}
 
 .lhmenuel {background-color: #9999FF !important;}
 
@@ -36,7 +36,7 @@ A.main:visited {color: #9999FF !important;}
 
 A.main:active {color: #9999FF !important;}
 
-A.main:hover {color: #FF6666 !important;}
+A.main:hover {color: #00ADEE !important;}
 
 A.second:link {color: #9999FF !important;}
 
@@ -44,11 +44,11 @@ A.second:visited {color: #9999FF !important;}
 
 A.second:active {color: #9999FF !important;}
 
-A.second:hover {color: #FF6666 !important;}
+A.second:hover {color: #00ADEE !important;}
 
-.third {color: #FFFFFF !important;background-color: #222222 !important;}
+.third {color: #FFFFFF !important;background-color: #000000 !important;}
 
-.thirdsp {background-color: #222222 !important;}
+.thirdsp {background-color: #000000 !important;}
 
 A.third:link {color: #9999FF !important;}
 
@@ -56,7 +56,7 @@ A.third:visited {color: #9999FF !important;}
 
 A.third:active {color: #9999FF !important;}
 
-A.third:hover {color: #FF6666 !important;}
+A.third:hover {color: #00ADEE !important;}
 
 A.thirdct:link {color: #9999FF !important;}
 
@@ -64,7 +64,7 @@ A.thirdct:visited {color: #9999FF !important;}
 
 A.thirdct:active {color: #9999FF !important;}
 
-A.thirdct:hover {color: #FF6666 !important;}
+A.thirdct:hover {color: #00ADEE !important;}
 
 A.nor:link {color: #9999FF !important;}
 
@@ -72,7 +72,7 @@ A.nor:visited {color: #9999FF !important;}
 
 A.nor:active {color: #9999FF !important;}
 
-A.nor:hover {color: #FF6666 !important;}
+A.nor:hover {color: #00ADEE !important;}
 
 .darkgray {color: #999999 !important;}
 
@@ -98,7 +98,7 @@ A.sponsor:visited {color: #9999FF !important;}
 
 A.sponsor:active {color: #9999FF !important;}
 
-A.sponsor:hover {color: #FF6666 !important;}
+A.sponsor:hover {color: #00ADEE !important;}
 
 A.sponsorBanner:link {color: #9999FF !important;}
 
@@ -106,7 +106,7 @@ A.sponsorBanner:visited {color: #9999FF !important;}
 
 A.sponsorBanner:active {color: #9999FF !important;}
 
-A.sponsorBanner:hover {color: #FF6666 !important;}
+A.sponsorBanner:hover {color: #00ADEE !important;}
 
 .panelNode-html, .panelNode-stylesheet, .panelNode-css, .panelNode-html .sourceLine {background-color: #EEEEEE !important;}
 
@@ -136,15 +136,15 @@ A.sponsorBanner:hover {color: #FF6666 !important;}
 
 .panelNode-css .groupHeader * {color: #A19D8A !important;}
 
-body {color: #FFFFFF !important;background-color: #000000 !important;}
+body {color: #FFFFFF !important;background-color: #222222 !important;}
 
-input, textarea, select {color: #FFFFFF;background-color: #000000;border-color: #37332B;-moz-appearance: none !important;}
+input, textarea, select {color: #FFFFFF;background-color: #222222;border-color: #37332B;-moz-appearance: none !important;}
 
 A.body {color: #CCCCCC !important;}
 
 A.body:hover {color: #333399 !important;}
 
-.lead {color: #FF6666 !important;}
+.lead {color: #00ADEE !important;}
 
 .panelNode-html, .panelNode-stylesheet, .panelNode-css, .panelNode-html .sourceLine {background-color: #EEEEEE !important;}
 
@@ -175,4 +175,3 @@ A.body:hover {color: #333399 !important;}
 .panelNode-css .groupHeader * {color: #A19D8A !important;}
 
 }
-
