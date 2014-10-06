@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /*
-    Ello Ello (version 0.1.2)
+    Ello Ello (version 0.1.3)
     Dark style for the Ello.co social network.
     Released under the GPLv3 (or later) and the CC-BY-SA 4.0 license.
 
@@ -68,7 +68,7 @@ body {background-color: #222222 !important;}
 
 p a:focus, p a:active, .no-touch p a:hover {color: #00ADEE !important;}
 
-mark {background-color: #1D123E !important;}
+mark {background-color: #4285F4 !important;}
 
 code, pre {background-color: #0E0E0E !important;}
 
