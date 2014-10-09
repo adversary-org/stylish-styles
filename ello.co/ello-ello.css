@@ -1,13 +1,13 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /*
-    Ello Ello (version 0.1.2)
+    Ello Ello (version 0.1.4)
     Dark style for the Ello.co social network.
     Released under the GPLv3 (or later) and the CC-BY-SA 4.0 license.
 
     Author:   Ben McGinnes <ben@adversary.org>
     GPG Key:  0x321E4E2373590E5D
-    Bitcoin:  1CUWLk5UJygDvsNNjmroqCd2uhgyKtH6Rb
+    Bitcoin:  17VvZDeLjhiH1ccU6rZWLZc41UiZd8eh6F
 
     https://userstyles.org/styles/105873/ello-ello
     https://github.com/adversary-org/stylish-styles
@@ -68,7 +68,7 @@ body {background-color: #222222 !important;}
 
 p a:focus, p a:active, .no-touch p a:hover {color: #00ADEE !important;}
 
-mark {background-color: #1D123E !important;}
+mark {background-color: #4285F4 !important;}
 
 code, pre {background-color: #0E0E0E !important;}
 
