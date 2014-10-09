@@ -8,6 +8,7 @@
 # GPG Key:  0x321E4E2373590E5D
 # License:  GPLv3 or any later version
 # Website:  https://github.com/adversary-org/stylish-styles
+# Bitcoin:  17VvZDeLjhiH1ccU6rZWLZc41UiZd8eh6F
 #
 # Takes a file, downloads all the GIFs, JPGs and PNGs, then copies or
 # moves them to a custom directory (here specific to the Stylish
